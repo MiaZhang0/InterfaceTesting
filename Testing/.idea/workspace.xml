@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb99d420-cc0f-4ca6-87f8-f0b02818f3fe" name="Default Changelist" comment="" />
+    <list default="true" id="fb99d420-cc0f-4ca6-87f8-f0b02818f3fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/WEB/testModule_WEB2.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +116,11 @@
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
               <item name="APP" type="462c0819:PsiDirectoryNode" />
               <item name="report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,9 +310,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="418" y="94" width="1028" height="1012" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25858587" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25858587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -362,9 +368,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB/testModule_WEB2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/APP/testModule_APP.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -402,13 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APP/testModule_APP2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/APP/cases/testcases_app2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2033">
@@ -426,6 +422,16 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB/testModule_WEB2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/testModule_APP2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
         </state>
       </provider>
     </entry>
