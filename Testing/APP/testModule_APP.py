@@ -2,7 +2,7 @@ import requests
 
 # 获取登录token
 def getLoginToken():
-    res = TestModuleClass().testLoginModule('15108307817', 'Kk12345')
+    res = TestModuleClass().testLoginModule('15108307817', 'Kk1234')
     # print(res)
     token = res[1]
     # print(token)

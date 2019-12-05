@@ -1,7 +1,34 @@
-from APP import testModule_APP
+from APP import testModule_APP2
 import time
 
-t = testModule_APP.TestModuleClass()
+t = testModule_APP2.TestModuleClass()
+#天e行移动端V1.1.0
+# t.testHomepageWeather(-11111111111111111111111111,-2)
+# t.testHomepageWeather('102.823','30.33')
+# t.testAlarmInfo('shu','')
+# t.testAlarmDetail('1')
+# t.testAlarmDetail('99')
+# t.testWarningList('','','','')
+# t.testWarningList('aaaaaa','','','')
+# t.testWarningList('','aaaaa','','')
+# t.testWarningList('','','aaaaaa','')
+# t.testWarningList('','','','aaaaa')
+# t.testWarningStatistics('')
+# t.testWarningStatistics('aaaaa')
+# t.testDcaseList('','','','','')
+# t.testDcaseList('aaa','','','','')
+# t.testDcaseList('','','aaa','','')
+# t.testDcaseList('','','','','aaa')
+
+# t.testDcaseStatistics('','')
+# t.testDcaseStatistics('aaa','')
+
+# t.testMonitorList('','','')
+# t.testMonitorList('','aaa','')
+# t.testMonitorList('','','aaa')
+t.testMonitorStatistics()
+t.testCommonMsg()
+
 #添加参与人
 # t.testDcaseAddParticipants('','')
 # t.testDcaseAddParticipants('103','34,35')
@@ -131,5 +158,5 @@ t = testModule_APP.TestModuleClass()
 # t.testMessageDetails(1)
 # t.testMessageDetails('')
 # t.testMessageDelMsg('')
-t.testMessageDelMsg(3)
+# t.testMessageDelMsg(3)
 # t.testWorkbench()
