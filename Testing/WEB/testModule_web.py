@@ -17,7 +17,7 @@ class TestWebModuleClass():
         datas = {'type':type}
         r = requests.post(url,data=datas)
         message = r.text
-        print(message)
+        #print(message)
         return message
     #	信息统计,本月预警数、本月灾害数
     def testInfoDisasterNum(self,cityCode,type):
@@ -25,7 +25,7 @@ class TestWebModuleClass():
         datas = {'cityCode':cityCode,'type':type}
         r = requests.post(url,data=datas)
         message = r.text
-        print(message)
+        #print(message)
         return message
     #	信息统计,本年度公共安全事件
     def testInfoEventsForYear(self,cityCode):
@@ -33,7 +33,7 @@ class TestWebModuleClass():
         datas = {'cityCode':cityCode}
         r = requests.post(url, data=datas)
         message = r.text
-        print(message)
+        #print(message)
         return message
     #信息统计,查询灾害类型对应的行业ID
     def testInfoIndustryId(self,type):

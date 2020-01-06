@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb99d420-cc0f-4ca6-87f8-f0b02818f3fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/WEB/testModule_WEB2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/testModule_WEB.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/testModule_web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB/testcases_web.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug_web.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,20 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APP/testModule_APP2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEB/testModule_WEB.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/APP/cases/testcases_app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2470">
-              <caret line="130" column="22" lean-forward="true" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
+            <state relative-caret-position="401">
+              <caret line="470" column="39" lean-forward="true" selection-start-line="470" selection-start-column="39" selection-end-line="470" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APP/cases/testcases_app2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2033">
+            <state relative-caret-position="871">
               <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -43,13 +49,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/APP/run_app2.py">
+        <entry file="file://$PROJECT_DIR$/APP/testModule_APP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="456">
+              <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WEB/testModule_web.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -76,7 +88,6 @@
         <option value="$PROJECT_DIR$/APP/testModule.py" />
         <option value="$PROJECT_DIR$/WEB/testcases_web.py" />
         <option value="$PROJECT_DIR$/debug_web.py" />
-        <option value="$PROJECT_DIR$/WEB/testModule_WEB.py" />
         <option value="$PROJECT_DIR$/APP/testcases_app.py" />
         <option value="$PROJECT_DIR$/APP/cases/testcases_app.py" />
         <option value="$PROJECT_DIR$/WEB/testModule_WEB2.py" />
@@ -87,10 +98,11 @@
         <option value="$PROJECT_DIR$/APP/testModule_APP2.py" />
         <option value="$PROJECT_DIR$/APP/cases/testcases_app2.py" />
         <option value="$PROJECT_DIR$/APP/run_app2.py" />
+        <option value="$PROJECT_DIR$/WEB/testModule_WEB.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="99" />
     <option name="y" value="75" />
     <option name="width" value="1028" />
@@ -102,6 +114,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,13 +142,17 @@
             <path>
               <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Testing" type="462c0819:PsiDirectoryNode" />
               <item name="WEB" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +256,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WEB/testModule_WEB.py" />
+      <option name="SCRIPT_NAME" value="E:\workspace\InterfaceTesting\Testing\WEB\testModule_web.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -318,10 +335,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="75" width="1028" height="1012" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25757575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24183351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -355,12 +371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debug_web.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB/testcases_web.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/APP/1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -370,13 +380,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/APP/report2019-10-08_16_11_38.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APP/testModule_APP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/APP/run_app.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -388,30 +391,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WEB/testModule_WEB2.py" />
+    <entry file="file://$PROJECT_DIR$/APP/run_app2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/debug_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="228">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APP/cases/testcases_app.py">
+    <entry file="file://$PROJECT_DIR$/debug_web.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/testModule_APP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="491" column="21" lean-forward="true" selection-start-line="486" selection-end-line="491" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="456">
+          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WEB/testModule_WEB2.py" />
+    <entry file="file://$PROJECT_DIR$/WEB/testcases_web.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APP/testModule_APP2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEB/testModule_web.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/APP/cases/testcases_app2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2033">
+        <state relative-caret-position="871">
           <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -419,27 +446,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APP/run_app2.py">
+    <entry file="file://$PROJECT_DIR$/APP/cases/testcases_app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="401">
+          <caret line="470" column="39" lean-forward="true" selection-start-line="470" selection-start-column="39" selection-end-line="470" selection-end-column="39" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB/testModule_WEB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2470">
-          <caret line="130" column="22" lean-forward="true" selection-start-line="130" selection-start-column="22" selection-end-line="130" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APP/testModule_APP2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
         </state>
       </provider>
     </entry>
