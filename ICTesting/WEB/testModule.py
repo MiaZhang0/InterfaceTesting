@@ -309,3 +309,115 @@ class TestModuleClass():
         message = r.text
         print(message)
         return message
+    #新增资讯
+    def testNewsAdd(self,title,image,cognateId,link,top,pub_time,source,content,status):
+        url = self.host + '/manage/news/add'
+        datas = {'title':title,'image':image,'cognateId':cognateId,'link':link,'top':top,'pub_time':pub_time,'source':source,'content':content,'status':status}
+        r = requests.post(url,data=datas)
+        message = r.text
+        print(message)
+        return message
+    #修改资讯
+    def testNewsEdit(self,title,image,cognateId,link,top,pub_time,source,content,status,newsId):
+        url = self.host + '/manage/news/edit'
+        datas = {'title':title,'image':image,'cognateId':cognateId,'link':link,'top':top,'pub_time':pub_time,'source':source,'content':content,'status':status,'newsId':newsId}
+        r = requests.post(url, data=datas)
+        message = r.text
+        print(message)
+        return message
+    #资讯列表
+    def testNewsList(self,pageNo,pageSize,title,status):
+        url = self.host + '/manage/news/list'
+        datas = {'pageNo':pageNo,'pageSize':pageSize,'title':title,'status':status}
+        r = requests.get(url,params=datas)
+        message = r.text
+        print(message)
+        return message
+    #删除资讯
+    def testNewsDel(self,ids):
+        url = self.host + '/manage/news/del'
+        datas = {'ids':ids}
+        r = requests.post(url, data=datas)
+        message = r.text
+        print(message)
+        return message
+    #发布或不发布资讯
+    def testNewsRelease(self,status,newsId):
+        url = self.host + '/manage/news/release'
+        datas = {'status':status,'newsId':newsId}
+        r = requests.post(url, data=datas)
+        message = r.text
+        print(message)
+        return message
+    #资讯详情
+    def testNewsInfo(self,newsId):
+        url = self.host + '/manage/news/info'
+        datas = {'newsId':newsId}
+        r = requests.post(url, data=datas)
+        message = r.text
+        print(message)
+        return message
+    #置顶或不置顶资讯
+    def testNewsTop(self,top,newsId):
+        url = self.host + '/manage/news/top'
+        datas = {'top':top,'newsId':newsId}
+        r = requests.post(url, data=datas)
+        message = r.text
+        print(message)
+        return message
+    #修改浏览量
+    def testNewsUpdateCount(self,newsId,count):
+        url = self.host + '/manage/news/updateCount'
+        datas = {'newsId':newsId,'count':count}
+        r = requests.post(url, data=datas)
+        message = r.text
+        print(message)
+        return message
+    #小区账号列表,name对象（pageNo,pageSize）
+    def testAccountAreasList(self,name,pageNo,pageSize):
+        url = self.host + '/manage/accountAreas/list'
+        datas = {'name':name,'pageNo':pageNo,'pageSize':pageSize}
+        r = requests.get(url,params=datas)
+        message = r.text
+        print(message)
+        return message
+    #小区账号信息
+    def testAccountAreasInfo(self,userId):
+        url = self.host + '/manage/accountAreas/info'
+        datas = {'userId':userId}
+        r = requests.get(url, params=datas)
+        message = r.text
+        print(message)
+        return message
+    #新增小区账号,name对象
+    def testAccountAreasAdd(self,name,username,password,roleId,phone,areasId):
+        url = self.host + '/manage/accountAreas/add'
+        datas = {'name':name,'username':username,'password':password,'roleId':roleId,'phone':phone,'areasId':areasId}
+        r = requests.post(url,data=datas)
+        message = r.text
+        print(message)
+        return message
+    #修改小区账号，name对象
+    def testAccountAreasEdit(self,name,password,roleId,phone,areasId,userId):
+        url = self.host + '/manage/accountAreas/edit'
+        datas = {'name':name,'password':password,'roleId':roleId,'phone':phone,'areasId':areasId,'userId':userId}
+        r = requests.post(url,data=datas)
+        message = r.text
+        print(message)
+        return message
+    #删除小区账号
+    def testAccountAreasDel(self):
+        url = self.host + '/manage/accountAreas/del'
+        r = requests.post(url)
+        message = r.text
+        print(message)
+        return message
+    #导出小区账号
+    def testAccountAreasExport(self):
+        url = self.host + '/manage/accountAreas/export'
+        r = requests.get(url)
+        message = r.text
+        print(message)
+        return message
+
+
