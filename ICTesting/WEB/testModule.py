@@ -2,10 +2,10 @@ import requests
 
 class TestModuleClass():
     def __init__(self):
-        self.host = ''
+        self.host = 'http://192.168.0.234:8099'
     #发送手机验证码
     def testSendCode(self,phone):
-        url = self.host + 'sendCode'
+        url = self.host + '/sendCode'
         datas = {'phone':phone}
         r = requests.get(url,params=datas)
         message = r.text
@@ -13,7 +13,7 @@ class TestModuleClass():
         return message
     #控制台登录，返回token
     def testMsgLogin(self,phone,code):
-        url = self.host + 'msgLogin'
+        url = self.host + '/msgLogin'
         datas = {'phone':phone,'code':code}
         r = requests.post(url,data=datas)
         message = r.text
@@ -21,9 +21,16 @@ class TestModuleClass():
         return message
     #普通登录
     def testLogin(self,username,password):
-        url = self.host + 'login'
+        url = self.host + '/login'
         datas = {'username':username,'password':password}
         r = requests.post(url, data=datas)
+        message = r.text
+        print(message)
+        return message
+    #登出
+    def testLogout(self):
+        url = self.host + '/manage/common/loginOut'
+        r = requests.get(url)
         message = r.text
         print(message)
         return message
@@ -61,6 +68,30 @@ class TestModuleClass():
     def testCellUnitInfo(self):
         url = self.host + '/manage/bulletin/release/manage/areas/info'
         r = requests.get(url)
+        message = r.text
+        print(message)
+        return message
+    #图片下载
+    def testImageDownload(self,path):
+        url = self.host + '/manage/common/image'
+        datas = {'path':path}
+        r = requests.post(url,data=datas)
+        message = r.text
+        print(message)
+        return message
+    #上传图片
+    def testImageUpload(self,file,type):
+        url = self.host + '/manage/common/upload'
+        datas = {'file':file,'type':type}
+        r = requests.get(url,params=datas)
+        message = r.text
+        print(message)
+        return message
+    #获取当前权限方法data=[functionId,action,name,createTime,menuId,permission]
+    def testAuthList(self,code,msg,list):
+        url = self.host + '/manage/common/authList'
+        datas = {'code':code,'msg':msg,'data':list}
+        r = requests.get(url,params=datas)
         message = r.text
         print(message)
         return message
@@ -224,6 +255,13 @@ class TestModuleClass():
         message = r.text
         print(message)
         return message
+    #公告删除
+    def testNoticeDel(self):
+        url = self.host + '/manage/bulletin/del'
+        r = requests.post(url)
+        message = r.text
+        print(message)
+        return message
     #导出居民
     def testResidentExport(self):
         url = self.host + '/manage/resident/export'
@@ -260,6 +298,14 @@ class TestModuleClass():
         url = self.host + '/manage/resident/list'
         datas = {'pageNo':pageNo,'pageSize':pageSize,'name':name,'areasId':areasId,'floor':floor,'modular':modular}
         r = requests.post(url, data=datas)
+        message = r.text
+        print(message)
+        return message
+    #居民信息
+    def testResidentInfo(self,householdId):
+        url = self.host + '/manage/resident/info'
+        datas = {'householdId':householdId}
+        r = requests.post(url,data=datas)
         message = r.text
         print(message)
         return message
@@ -419,5 +465,59 @@ class TestModuleClass():
         message = r.text
         print(message)
         return message
+    #权限列表
 
-
+    #角色添加,参数：list[id,list[id,list[id]]]
+    def testRoleAdd(self,name,users,desc):
+        url = self.host + '/manage/role/add'
+        datas = {}
+        r = requests.post(url, data=datas)
+        message = r.text
+        print(message)
+        return message
+    #修改角色,参数：list[id,list[id,list[id]]]
+    def testRoleEdit(self,roleId,name,desc,userId):
+        url = self.host + '/manage/role/edit'
+        datas = {}
+        r = requests.post(url, data=datas)
+        message = r.text
+        print(message)
+        return message
+    #获取权限菜单
+    def testAuthMenuFun(self):
+        url = self.host + '/manage/common/authMenuFun'
+        r = requests.get(url)
+        message = r.text
+        print(message)
+        return message
+    #删除角色，int型的数组【1,2,3】
+    def testRoleDel(self):
+        url = self.host + '/manage/role/del'
+        datas = {}
+        r = requests.post(url,data=datas)
+        message = r.text
+        print(message)
+        return message
+    #角色信息
+    def testRoleInfo(self,roleId):
+        url = self.host + '/manage/role/info'
+        datas = {'roleId':roleId}
+        r = requests.get(url,params=datas)
+        message = r.text
+        print(message)
+        return message
+    #拷贝角色
+    def testRoleCopy(self,name,desc,type,copyId):
+        url = self.host + '/manage/role/copy'
+        datas = {'name':name,'desc':desc,'type':type,'copyId':copyId}
+        r = requests.post(url,data=datas)
+        message = r.text
+        print(message)
+        return message
+    #权限加载管理员
+    def testAuthUsers(self):
+        url = self.host + '/manage/common/authUsers'
+        r = requests.get(url)
+        message = r.text
+        print(message)
+        return message
