@@ -1,6 +1,6 @@
-from WEB import testModule
+from WEB import testModule_Web
 
-t = testModule.TestModuleClass()
+t = testModule_Web.TestModuleClass()
 # t.testLogin('root','123456')
 # t.testLogin('','')
 # t.testLogin('aaa11@@','123456')

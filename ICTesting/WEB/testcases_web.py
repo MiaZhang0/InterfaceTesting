@@ -1,10 +1,10 @@
 import unittest
 from unittest import TestCase
-from WEB import testModule
+from WEB import testModule_Web
 
 class TestClass(TestCase):
     def setUp(self):
-        self.t = testModule.TestModuleClass()
+        self.t = testModule_Web.TestModuleClass()
     #发送手机验证码
     def test_sendCode_success(self):
         message = self.t.testSendCode('15108307817')
