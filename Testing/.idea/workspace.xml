@@ -2,32 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb99d420-cc0f-4ca6-87f8-f0b02818f3fe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/cases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/reports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/testcases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/WEB/cases/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/WEB/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/WEB/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/WEB/reports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/WEB/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/other.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/publish_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ICTesting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICTesting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/testModule_WEB.py" beforeDir="false" afterPath="$PROJECT_DIR$/WEB/testModule_web.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WEB/testcases_web.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug_web.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/report2019-10-08_16_11_38.html" beforeDir="false" afterPath="$PROJECT_DIR$/APP/report/report2019-10-08_16_11_38.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/report2019-10-08_20_41_08.html" beforeDir="false" afterPath="$PROJECT_DIR$/APP/report/report2019-10-08_20_41_08.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/report2019-10-08_20_52_16.html" beforeDir="false" afterPath="$PROJECT_DIR$/APP/report/report2019-10-08_20_52_16.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APP/report2019-11-29_16_25_04.html" beforeDir="false" afterPath="$PROJECT_DIR$/APP/report/report2019-11-29_16_25_04.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP/debug_app.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/APP/cases/testcases_app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,112 +43,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/ip_test.py" />
-        <option value="$PROJECT_DIR$/other/ip_test.py" />
-        <option value="$PROJECT_DIR$/debug.py" />
-        <option value="$PROJECT_DIR$/APP/testcases.py" />
-        <option value="$PROJECT_DIR$/APP/testModule.py" />
-        <option value="$PROJECT_DIR$/WEB/testcases_web.py" />
-        <option value="$PROJECT_DIR$/debug_web.py" />
-        <option value="$PROJECT_DIR$/APP/testcases_app.py" />
-        <option value="$PROJECT_DIR$/APP/cases/testcases_app.py" />
-        <option value="$PROJECT_DIR$/WEB/testModule_WEB2.py" />
-        <option value="$PROJECT_DIR$/APP/testModule_APP.py" />
-        <option value="$PROJECT_DIR$/APP/run_app.py" />
-        <option value="$PROJECT_DIR$/APP/report/run_app2.py" />
-        <option value="$PROJECT_DIR$/debug_app.py" />
-        <option value="$PROJECT_DIR$/APP/testModule_APP2.py" />
-        <option value="$PROJECT_DIR$/APP/cases/testcases_app2.py" />
-        <option value="$PROJECT_DIR$/APP/run_app2.py" />
-        <option value="$PROJECT_DIR$/WEB/testModule_WEB.py" />
-        <option value="$PROJECT_DIR$/other/file_test.py" />
-        <option value="E:/ftp.py" />
-      </list>
-    </option>
+  <component name="ProjectId" id="1aTAEvpf8gOKKyHCKA6LGAdNa7O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="551" />
-    <option name="y" value="173" />
-    <option name="width" value="1126" />
-    <option name="height" value="1012" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="APP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="APP" type="462c0819:PsiDirectoryNode" />
-              <item name="cases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="APP" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Testing" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ICTesting" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Learning" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\InterfaceTesting\Testing\Tian_E_XingV3.0\APP" />
+      <recent name="E:\workspace\InterfaceTesting\Testing\APP\report" />
       <recent name="E:\workspace\InterfaceTesting\Testing\APP" />
       <recent name="C:\Users\Administrator\Desktop\科达乐\Testing\APP\cases" />
       <recent name="G:\Kedalo\Testing\APP" />
-      <recent name="G:\Kedalo\Testing\other" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.ip_test">
-    <configuration name="debug_app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.publish_test">
+    <configuration name="other" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -152,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tian_E_XingV3.0" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug_app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tian_E_XingV3.0/other.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="publish_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,7 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/file_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/publish_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ip_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -194,11 +116,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/other" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tian_E_XingV3/APP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/other/ip_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tian_E_XingV3/APP/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testcases (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,11 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tian_E_XingV3/APP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APP/run_app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tian_E_XingV3/APP/testcases.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -228,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_app2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="testcases" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -236,11 +158,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/APP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tian_E_XingV3.0/APP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/APP/run_app2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tian_E_XingV3.0/APP/testcases.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ip_test" />
-        <item itemvalue="Python.file_test" />
-        <item itemvalue="Python.run_app2" />
-        <item itemvalue="Python.debug_app" />
-        <item itemvalue="Python.run_app" />
+        <item itemvalue="Python.publish_test" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.testcases (1)" />
+        <item itemvalue="Python.testcases" />
+        <item itemvalue="Python.other" />
       </list>
     </recent_temporary>
   </component>
@@ -304,153 +226,39 @@
       <configuration name="Unittests in testcases_app.py" configurationId="tests" />
     </history-entry>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="551" y="173" width="1126" height="1012" extended-state="0" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21599264" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8688093" weight="0.2642369" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39908257" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.13119073" side_tool="true" weight="0.28690228" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/urllib3/util/connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APP/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/Day01/IntegratedEarlyWarningPlatform/demo_run.py" />
-    <entry file="file://$PROJECT_DIR$/APP/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APP/report2019-10-08_16_11_38.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APP/run_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="15" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB/testModule_WEB2.py" />
-    <entry file="file://$PROJECT_DIR$/APP/run_app2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug_web.py" />
-    <entry file="file://$PROJECT_DIR$/WEB/testcases_web.py" />
-    <entry file="file://$PROJECT_DIR$/APP/testModule_APP2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APP/cases/testcases_app2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2033">
-          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APP/testModule_APP.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/file_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/other/ip_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="921">
-          <caret line="302" column="22" lean-forward="true" selection-start-line="302" selection-start-column="22" selection-end-line="302" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/rsync.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="41" column="18" lean-forward="true" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEB/testModule_web.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APP/cases/testcases_app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="779" y="361" key="FileChooserDialogImpl" timestamp="1591154032348">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="779" y="348" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589434108683" />
+    <state x="779" y="361" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1591154032348" />
+    <state width="1902" height="233" key="GridCell.Tab.0.bottom" timestamp="1591265614812">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1654" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589522752713" />
+    <state width="1902" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591265614812" />
+    <state width="1902" height="233" key="GridCell.Tab.0.center" timestamp="1591265614812">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1654" height="188" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589522752713" />
+    <state width="1902" height="233" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591265614812" />
+    <state width="1902" height="233" key="GridCell.Tab.0.left" timestamp="1591265614812">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1654" height="188" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589522752713" />
+    <state width="1902" height="233" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591265614812" />
+    <state width="1902" height="233" key="GridCell.Tab.0.right" timestamp="1591265614812">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1654" height="188" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589522752713" />
+    <state width="1902" height="233" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591265614812" />
+    <state x="179" y="118" key="SettingsEditor" timestamp="1591173019784">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="179" y="118" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591173019784" />
+    <state x="560" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1591323205248">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591323205248" />
   </component>
 </project>
