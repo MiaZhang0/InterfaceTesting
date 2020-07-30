@@ -2,31 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3f445f5-639e-4ea9-918a-224acbce3860" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/cases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/reports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/testcases.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/WEB/cases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/WEB/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/WEB/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/WEB/reports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/WEB/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/other.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Testing/other/publish_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICT_V3.0/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ICT_V3.0/testModule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/testweather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/WEB/testcases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/other/wgrb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing/.idea/Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing/.idea/Testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Testing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing/APP/report2019-10-08_16_11_38.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing/APP/report/report2019-10-08_16_11_38.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing/APP/report2019-10-08_20_41_08.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing/APP/report/report2019-10-08_20_41_08.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing/APP/report2019-10-08_20_52_16.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing/APP/report/report2019-10-08_20_52_16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing/APP/report2019-11-29_16_25_04.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing/APP/report/report2019-11-29_16_25_04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Testing/debug_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing/APP/debug_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing/Tian_E_XingV3/APP/testcases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Testing/other/publish_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Testing/other/publish_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../weather2.0/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Testing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -60,7 +46,7 @@
       <recent name="E:\workspace\InterfaceTesting\ICTesting\WEB" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.demo">
+  <component name="RunManager" selected="Python.testModule">
     <configuration name="debugWeb" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ICTesting" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,8 +110,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testModule" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ICTesting" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ICT_V3.0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ICT_V3.0/testModule.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testModule" />
         <item itemvalue="Python.demo" />
         <item itemvalue="Python.iptest" />
         <item itemvalue="Python.debugWeb" />
@@ -146,26 +154,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1216" y="449" key="FileChooserDialogImpl" timestamp="1589366833336">
+    <state x="1216" y="449" key="FileChooserDialogImpl" timestamp="1594891099435">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1216" y="449" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1589366833336" />
-    <state width="1270" height="351" key="GridCell.Tab.0.bottom" timestamp="1585648999395">
+    <state x="1216" y="449" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1594891099435" />
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom" timestamp="1595326340202">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1270" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1585648999395" />
-    <state width="1270" height="351" key="GridCell.Tab.0.center" timestamp="1585648999395">
+    <state width="1899" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595326340202" />
+    <state width="1899" height="274" key="GridCell.Tab.0.center" timestamp="1595326340202">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1270" height="351" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1585648999395" />
-    <state width="1270" height="351" key="GridCell.Tab.0.left" timestamp="1585648999395">
+    <state width="1899" height="274" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595326340202" />
+    <state width="1899" height="274" key="GridCell.Tab.0.left" timestamp="1595326340202">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1270" height="351" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1585648999395" />
-    <state width="1270" height="351" key="GridCell.Tab.0.right" timestamp="1585648999395">
+    <state width="1899" height="274" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595326340202" />
+    <state width="1899" height="274" key="GridCell.Tab.0.right" timestamp="1595326340202">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1270" height="351" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1585648999395" />
+    <state width="1899" height="274" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595326340202" />
     <state x="463" y="185" key="SettingsEditor" timestamp="1589366136336">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

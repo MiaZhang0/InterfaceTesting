@@ -2,36 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb99d420-cc0f-4ca6-87f8-f0b02818f3fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/cases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/reports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/testcases.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/WEB/cases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/WEB/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/WEB/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/WEB/reports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/WEB/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/other.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/publish_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICTesting/ICT_V3.0/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ICTesting/ICT_V3.0/testModule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/testweather.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tian_E_XingV3/WEB/testcases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/other/wgrb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ICTesting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICTesting/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Testing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/report2019-10-08_16_11_38.html" beforeDir="false" afterPath="$PROJECT_DIR$/APP/report/report2019-10-08_16_11_38.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/report2019-10-08_20_41_08.html" beforeDir="false" afterPath="$PROJECT_DIR$/APP/report/report2019-10-08_20_41_08.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/report2019-10-08_20_52_16.html" beforeDir="false" afterPath="$PROJECT_DIR$/APP/report/report2019-10-08_20_52_16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APP/report2019-11-29_16_25_04.html" beforeDir="false" afterPath="$PROJECT_DIR$/APP/report/report2019-11-29_16_25_04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/APP/debug_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tian_E_XingV3/APP/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tian_E_XingV3/APP/testcases.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tian_E_XingV3/APP/testcases.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/other/publish_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/other/publish_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../weather2.0/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Testing" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,8 +42,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Learning" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ICTesting" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -66,27 +55,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.publish_test">
-    <configuration name="other" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Testing" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tian_E_XingV3.0" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tian_E_XingV3.0/other.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="publish_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Testing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,13 +139,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="testweather" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Testing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tian_E_XingV3/APP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tian_E_XingV3/APP/testweather.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.publish_test" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.testweather" />
         <item itemvalue="Python.testcases (1)" />
         <item itemvalue="Python.testcases" />
-        <item itemvalue="Python.other" />
       </list>
     </recent_temporary>
   </component>
@@ -227,38 +216,38 @@
     </history-entry>
   </component>
   <component name="WindowStateProjectService">
-    <state x="779" y="361" key="FileChooserDialogImpl" timestamp="1591154032348">
+    <state x="779" y="361" key="FileChooserDialogImpl" timestamp="1595297134332">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="779" y="348" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589434108683" />
-    <state x="779" y="361" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1591154032348" />
-    <state width="1902" height="233" key="GridCell.Tab.0.bottom" timestamp="1591265614812">
+    <state x="779" y="361" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1595297134332" />
+    <state width="1899" height="341" key="GridCell.Tab.0.bottom" timestamp="1596018172056">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1654" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589522752713" />
-    <state width="1902" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1591265614812" />
-    <state width="1902" height="233" key="GridCell.Tab.0.center" timestamp="1591265614812">
+    <state width="1899" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1596018172056" />
+    <state width="1899" height="341" key="GridCell.Tab.0.center" timestamp="1596018172056">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1654" height="188" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589522752713" />
-    <state width="1902" height="233" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1591265614812" />
-    <state width="1902" height="233" key="GridCell.Tab.0.left" timestamp="1591265614812">
+    <state width="1899" height="341" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1596018172056" />
+    <state width="1899" height="341" key="GridCell.Tab.0.left" timestamp="1596018172056">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1654" height="188" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589522752713" />
-    <state width="1902" height="233" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1591265614812" />
-    <state width="1902" height="233" key="GridCell.Tab.0.right" timestamp="1591265614812">
+    <state width="1899" height="341" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1596018172056" />
+    <state width="1899" height="341" key="GridCell.Tab.0.right" timestamp="1596018172056">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1654" height="188" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589522752713" />
-    <state width="1902" height="233" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1591265614812" />
-    <state x="179" y="118" key="SettingsEditor" timestamp="1591173019784">
+    <state width="1899" height="341" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1596018172056" />
+    <state x="634" y="285" key="SettingsEditor" timestamp="1594959865537">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="179" y="118" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1591173019784" />
-    <state x="560" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1591323205248">
+    <state x="634" y="285" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1594959865537" />
+    <state x="560" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1596091800263">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1591323205248" />
+    <state x="560" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1596091800263" />
   </component>
 </project>

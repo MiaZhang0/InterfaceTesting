@@ -23,11 +23,11 @@ obj = testcases.TestModuleClass()
 # 人员管理-人员详情接口
 # obj.testPersoninfo(24)
 # 机构列表接口
-obj.testCommonOrglist()
+# obj.testCommonOrglist()
 # 所有角色列表接口
 # obj.testCommonRolelist()
 # 所有人员列表接口
-obj.testCommonPersonlist()
+# obj.testCommonPersonlist()
 
 # 个人信息编辑接口，其中修改头像是另一个接口
 # obj.testAccountEdit('zxm','','','','')
@@ -85,3 +85,5 @@ obj.testCommonPersonlist()
 # obj.testScreenlocalForecast(103.00,29.98)
 #
 # obj.testMobileProjectlist('','','1','16')
+
+obj.testScreenFifthdays(104.07,30.67)

@@ -6,7 +6,7 @@ import requests
 # 自动格式化：ctrl + alt + L ; shift + ctrl + F
 
 def getLoginToken():
-    message = TestModuleClass().testLoginModule('zxm', 'Kk1234567', '2')
+    message = TestModuleClass().testLoginModule('zxm', 'Kk123456', '2')
     token = message['data']['token']
     # print(token)
     return token
@@ -16,7 +16,7 @@ class TestModuleClass():
     def __init__(self):
         self.host = 'http://weather.kedalo.com:9989'
 
-    # 登录接口1
+    # 登录接口1, 0:PC 1:IOS 2:android
     def testLoginModule(self, username, pwd, platform):
         url = self.host + '/login'
         datas = {'username': username, 'password': pwd, 'platform': platform}
@@ -780,33 +780,69 @@ class TestModuleClass():
         message = r.text
         print(message)
         return message
+
     # 天气接口
     # 根据经纬度查询当前天气数据
-    def testWeathernow(self,lng,lat):
+    def testWeathernow(self, lng, lat):
         url = self.host + '/weather/now'
         token = getLoginToken()
         header = {'Cookie': 'SESSION=' + token}
-        datas = {'lng':lng,'lat':lat}
+        datas = {'lng': lng, 'lat': lat}
         r = requests.get(url, headers=header, params=datas)
         message = r.text
         print(message)
         return message
+
     # 逐小时预报
-    def testScreenlocalForecast(self,lng,lat):
+    def testScreenlocalForecast(self, lng, lat):
         url = self.host + '/screen/localForecast'
         token = getLoginToken()
         header = {'Cookie': 'SESSION=' + token}
         datas = {'lng': lng, 'lat': lat}
-        r = requests.get(url, headers=header,params=datas)
+        r = requests.get(url, headers=header, params=datas)
         message = r.text
         print(message)
         return message
+
     # 关联项目
-    def testMobileProjectlist(self,name,type,pageNo,pageSize):
+    def testMobileProjectlist(self, name, type, pageNo, pageSize):
         url = self.host + '/mobile/project/list'
         token = getLoginToken()
         header = {'Cookie': 'SESSION=' + token}
-        datas = {'name':name,'type':type,'pageNo':pageNo,'pageSize':pageSize}
+        datas = {'name': name, 'type': type, 'pageNo': pageNo, 'pageSize': pageSize}
+        r = requests.get(url, headers=header, params=datas)
+        message = r.text
+        print(message)
+        return message
+
+    # 根据经纬度获取风速风向
+    def testLocalForecast_meta(self, lng, lat):
+        url = self.host + '/screen/localForecast_meta'
+        token = getLoginToken()
+        header = {'Cookie': 'SESSION=' + token}
+        datas = {'lng': lng, 'lat': lat}
+        r = requests.get(url, headers=header, params=datas)
+        message = r.text
+        print(message)
+        return message
+
+    # 根据经纬度查询当前天气数据,青羊区=510106
+    def testScreenNow(self, lng, lat, areaCode):
+        url = self.host + '/screen/now'
+        token = getLoginToken()
+        header = {'Cookie': 'SESSION=' + token}
+        datas = {'lng': lng, 'lat': lat, 'areaCode': areaCode}
+        r = requests.get(url, headers=header, params=datas)
+        message = r.text
+        print(message)
+        return message
+
+    # 根据经纬度查询15天预报, areaCode
+    def testScreenFifthdays(self, lng, lat):
+        url = self.host + '/screen/fifthDays'
+        token = getLoginToken()
+        header = {'Cookie': 'SESSION=' + token}
+        datas = {'lng': lng, 'lat': lat}
         r = requests.get(url, headers=header, params=datas)
         message = r.text
         print(message)

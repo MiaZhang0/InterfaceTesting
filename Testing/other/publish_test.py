@@ -44,11 +44,12 @@ def db_con():
     print("Database version : %s " % data)
 
     # sql语句，修改
-    sql = '''update kedalo_sys_version set lvl = 'v3.0.1.605',
-    content = '天e行防灾减灾大数据平台移动端内测版V3.0.1.605
+    sql = '''update kedalo_sys_version set lvl = 'v3.0.1.629',
+    content = '天e行防灾减灾大数据平台移动端内测版V3.0.1.629
     更新说明：
-    仅更新数据接口，消息中心功能待完善',
-    url = 'http://app.kedalo.com:8000/kdl20000a02_V3.0.1.605.apk'
+1.完善根据行政区划筛选监测项目功能
+2.修复缺陷及优化界面',
+    url = 'http://app.kedalo.com:8000/kdl20000a02.apk'
     where version_id = 2
     '''
     try:
@@ -74,9 +75,9 @@ if __name__ == '__main__':
         ftp.login('ftpuser', '11nadXbkQx9Zet2A')
         # 切换目录，上传文件的目的地目录
         ftp.cwd('/')
-        remote_path = 'kdl20000a02_V3.0.1.605.apk'
+        remote_path = 'kdl20000a02.apk'
         # print(remote_path)
-        local_path = r'E:\testpack\kdl20000a02_V3.0.1.605.apk'
+        local_path = r'E:\testpack\kdl20000a02.apk'
         upload(ftp, remote_path, local_path)
         ftp.close()
         print('文件上传完成')

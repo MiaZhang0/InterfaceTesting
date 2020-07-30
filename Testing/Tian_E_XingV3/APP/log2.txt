@@ -1,0 +1,1 @@
+{"code":"0","msg":"成功","data":{"warn":[],"tmp":"27.7","icon":"yintian.png","speed":"2级","degrees":"东北风","tr":"3.05","status":"阴"}}{"code":"0","msg":"成功","data":{"warn":[],"tmp":"27.1","icon":"zhongyu.png","speed":"2级","degrees":"东北风","tr":"3.05","status":"中雨"}}
